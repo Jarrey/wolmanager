@@ -31,6 +31,12 @@ Single-file PHP Wake-on-LAN 管理器。
 3. 使用默认管理员账号 `admin` / `admin` 登录
 4. 添加设备并发送 Wake-on-LAN 唤醒包
 
+如果你对源码做了修改，可运行以下命令重新生成压缩后的 `index.php`：
+
+```bash
+php build.php
+```
+
 ## 安全建议
 
 - 首次登录后请立即修改默认管理员密码
